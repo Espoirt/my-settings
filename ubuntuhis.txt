@@ -1,0 +1,386 @@
+    1  sudo hostname rain
+    2  sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
+    3  nano vim sources.list
+    4  nano sources.list
+    5  cat sources.list
+    6  sudo apt update
+    7  cal
+    8  sudo apt upgrade -y
+    9  sudo apt install -y curl wget git vim unzip zip net-tools ca-certificates gnupg lsb-release build-essential software-properties-common
+   10  git --version
+   11  sudo apt install -y python3 python3-pip python3-venv
+   12  cal
+   13  apt-get install bsdmainutils
+   14  sudo apt-get install bsdmainutils
+   15  cal
+   16  cal -3
+   17  cal -m
+   18  exit
+   19  ls -l
+   20  whoiam
+   21  who
+   22  whoami
+   23  exit
+   24  dir
+   25  ls
+   26  cd /home
+   27  ls
+   28  cd rui
+   29  mkdir looo
+   30  touch ji.txt
+   31  vim ji.txt
+   32  cat ji.txt
+   33  less ji.txt
+   34  clear
+   35  history
+   36  date
+   37  ps
+   38  pwd
+   39  mkdir renyuan
+   40  ls
+   41  ls -d
+   42  ls -m
+   43  clear
+   44  ip a show
+   45  who
+   46  \u
+   47  cat /.bashrc
+   48  cat ./.bashrc
+   49  clear
+   50  touch /home/rui/.hushlogin
+   51  ps
+   52  ping google.com
+   53  /dev
+   54  lsblk
+   55  free -h
+   56  lscpu
+   57  top
+   58  psaxoppid,pid,comm
+   59  ps axoppid,pid,comm
+   60  ps -a
+   61  traceroute baidu.com
+   62  tracert.exe baidu.com
+   63  ip
+   64  finger hmli
+   65  finger rui
+   66  exit
+   67  ls
+   68  sd
+   69  exit
+   70  vim pppp.txt
+   71  exit
+   72  cowsay
+   73  sudo apt install cowsay
+   74  cowsay
+   75  cowsay -l
+   76  cowsay -f apt h
+   77  cowsay -f apt beavis.zen
+   78  cowsay -f beavis.zen
+   79  cowsay "hi jip"
+   80  cowsay -e @@ aaaaa aaa
+   81  fortune | cowsay
+   82  animalsay oooo
+   83  exit
+   84  lsssd
+   85  ls
+   86  sd
+   87  man ls
+   88  curl
+   89  man curl 
+   90  tee
+   91  mkdir uuuu
+   92  cd uuuu
+   93  echo hello
+   94  echo hello | sed 's\[e]\\'
+   95  echo hello | sed 's\[e-m]+\\'
+   96  echo hello | sed 's\[e-[2~[C[Cm]+\\'
+   97  echo hello | sed 's\[elo]+\\'
+   98  echo hello | sed 's\[elo]?\\'
+   99  echo hello | sed 's\[elo]\\'
+  100  echo hello | sed 's\[lo]\\'
+  101  echo hello | sed 's\[elo]\\g'
+  102  echo hello | sed 's\[e-m]\\g'
+  103  echo hello | sed - E 's\[elo]+\\'
+  104  echo hello | sed -E 's\[elo]+\\'
+  105  man xargs
+  106  man bc
+  107  exit
+  108  emacs
+  109  sudo snap install emacs
+  110  sudo snap install emacs --classic
+  111  emacs -v
+  112  emacs -nw
+  113  cd uuuu
+  114   echo -e "\033[31mthis is red \033[0m"
+  115  echo -e "\033[31mthis is red \033[0m"
+  116  echo -e "\033[33;41mmthis is red \033[0m"
+  117  echo -e "\033[1;32mmthis is red \033[0m"
+  118  echo -e "\033[0;32m;44mmthis is red \033[0m"
+  119  echo -e "\033[0;32m;47mmthis is red \033[0m"
+  120  echo -e "\033[0;32m;41mmthis is red \033[0m"
+  121  echo -e "\033[1;32m;41mmthis is red \033[0m"
+  122  echo -e "\033[2;32m;41mmthis is red \033[0m"
+  123  echo -e "\033[3;32m;41mmthis is red \033[0m"
+  124  echo -e "\033[4;32m;41mmthis is red \033[0m"
+  125  echo -e "\033[5;32m;41mmthis is red \033[0m"
+  126  echo -e "\033[32m;41mmthis is red \033[0m"
+  127  echo -e "\033[0;32;41mmthis is red \033[0m"
+  128  echo -e "\033[0;31;46mmthis is red \033[0m"
+  129  echo -e "\033[1;31;46mmthis is red \033[0m"
+  130  echo -e "\033[0;30;47mmthis is red \033[0m"
+  131  echo -e "\033[1;30;47mmthis is red \033[0m"
+  132  echo -e "\033[2;30;47mmthis is red \033[0m"
+  133  clear
+  134  echo -e "\033[0;30;47mmthis is red \033[0m"
+  135  echo -e "\033[1;30;47mmthis is red \033[0m"
+  136  echo -e "\033[2;30;47mmthis is red \033[0m"
+  137  echo -e "\033[3;30;47mmthis is red \033[0m"
+  138  echo -e "\033[4;30;47mmthis is red \033[0m"
+  139  echo -e "\033[5;30;47mmthis is red \033[0m"
+  140  echo -e "\033[6;30;47mmthis is red \033[0m"
+  141  echo -e "\033[5;30;47mmthis is red \033[0m"
+  142  echo -e "\033[5;30mmthis is red \033[0m"
+  143  echo -e "\033[5;32m;41mmthis is red \033[0m"
+  144  echo -e "\033[5;32;41mmthis is red \033[0m"
+  145  echo -e "\033[5;30;47mmthis is red \033[0m"
+  146  echo -e "\033[5;30;43mmthis is red \033[0m"
+  147  echo -e "\033[5;31;47mmthis is red \033[0m"
+  148  echo -e "\033[5;37;47mmthis is red \033[0m"
+  149  echo -e "\033[5;37mmthis is red \033[0m"
+  150  clrar
+  151  clear
+  152  emacs
+  153  ls -a
+  154  ~/.emacs
+  155  pidof sshd
+  156  pidof ssh
+  157  pidof http
+  158  ifconfig
+  159  uname -a
+  160  uptime
+  161  free -h
+  162  who
+  163  last
+  164  sudo apt install wtmpdb $
+  165  last
+  166  sudo apt install wtmpdb 
+  167  last
+  168  tracepath www.linuxprobe.com
+  169  sudo apt install iputils-tracepath
+  170  free -h
+  171  df
+  172  df -h
+  173  tracepath www.linuxprobe.com
+  174  netstat -a
+  175  netstat -i 
+  176  source
+  177  man source
+  178  source -h
+  179  source --help
+  180  ls -al
+  181  cd ..
+  182  ls -al
+  183  ls -a
+  184  cd ~
+  185  pwd
+  186  ls
+  187  cd looo
+  188  ls
+  189  cat ji.txt
+  190  echo oooop > ji.txt
+  191  cat ji.txt
+  192  tree
+  193  cat ji.txt
+  194  find /etc -name "host*"
+  195  find /usr -name "host*"
+  196  find /usr -name "host*" | grep man | sort
+  197  man cp
+  198  man find
+  199  locate whereis
+  200  whereis ls
+  201  which locate
+  202  which mv
+  203  more anaconda-ks.cfg 
+  204  wc -l /etc/passwd
+  205  stat ji.txt
+  206  cut -d : -f 1 $PATH
+  207  cut -d : $PATH
+  208  file ji.txt
+  209  ls -l /dev/sda*
+  210  env
+  211  exit
+  212  bash
+  213  exit
+  214  htop
+  215  sudo apt  install htop 
+  216  htop
+  217  pin
+  218  ls
+  219  cd uuuu
+  220  mkdir asd{a.e}
+  221  ls
+  222  mkdir asd{a..e}
+  223  ls
+  224  rmdir asd*
+  225  ls
+  226  hh='hio'
+  227  $(hh)
+  228  $hh
+  229  echo $hh
+  230  echo "$hh"
+  231  echo '$hh'
+  232  history
+  233  $path
+  234  $PATH
+  235  man date
+  236  date
+  237  date -h
+  238  date "+%Y-%m-%d %H:%M:%S"
+  239  date "+%Y-%M-%D"
+  240  date "+%j"
+  241  timedatectl status
+  242  reboot 
+  243  wget https://www.linuxprobe.com/docs/LinuxProbe.pdf
+  244  wget -r -p https://www.linuxprobe.com
+  245  ps
+  246  ps -a
+  247  ps -au
+  248  ps -aux
+  249  pstree
+  250  nice
+  251  nice -n -20 bash
+  252  cd ..
+  253  exit
+  254  echo $SHELL
+  255  man mkdir
+  256  [ -d /etc/fstab ]
+  257  [ -d /etc ]
+  258  echo $?
+  259  [ -d /etc/fstab ]
+  260  echo $?
+  261  [ -e /dev/cdrom ] && echo "Exist"
+  262  [ $USER = root ] || echo "user"
+  263  [ ! $USER = root ] || echo "administrator"
+  264  [ ! $USER = root ] && echo "administrator"
+  265  [ ! $USER = root ] && echo "user" || echo "root"
+  266  [ 10 -gt 10 ] && echo man
+  267  [ 10 -gt 10 ] || echo man
+  268  free -m | grep Mem: | awk '{print $4}'
+  269  [ $FreeMem -lt 2024 ] && echo "Insufficient Memory"
+  270  [ 3355 -lt 2024 ] && echo "Insufficient Memory"
+  271  [ 33 -lt 2024 ] && echo "Insufficient Memory"
+  272  echo $LANG
+  273  [ ! $LANG = "en.US" ] && echo "Not en.US"
+  274  id rui
+  275  man id
+  276  crontab -l
+  277  id rui
+  278  ls \
+  279  cd \
+  280  ls
+  281  ls -a
+  282  cd ~
+  283  ls -a
+  284  cd .emacs.d
+  285  ls
+  286  emacs
+  287  emacs cccc.py
+  288  exit
+  289  cd home
+  290  cd /home
+  291  ls
+  292  echo mmmm > mmmm.txt
+  293  cd rui
+  294  echo mmmm > mmmm.txt
+  295  ls
+  296  cd ~
+  297  find --name .vim*
+  298  find -h
+  299  find --help
+  300  man help
+  301  man find
+  302  find / -name ".vimrc"
+  303  cd mnt/d
+  304  cd mnt/c
+  305  cd mnt/c/user/anea
+  306  cd mnt/c/user/
+  307  cd /mnt/c/Users/Anea
+  308  cd /mnt/d/linux
+  309  cd /home
+  310  find ~ -maxdepth 1 -name "*.vimrc" -o -name ".vimrc"
+  311  ls -a
+  312  which vim
+  313  vim
+  314  cd /root
+  315  sudo cd /root
+  316  sudo su
+  317  ls
+  318  cat ~/.bashrc
+  319  echo "cd /home/rui" >> ~/.bashrc
+  320  source ~/.bashrc
+  321  ls
+  322  cat ~/.vimrc
+  323  cd /mnt/d/softz
+  324  ls
+  325  cd vim
+  326  ls
+  327  cp _vimrc ~/abcde
+  328  cd ~
+  329  cat abcde
+  330  cp abcde ~/.vimrc
+  331  less .vimrc
+  332  rm abcde
+  333  vim
+  334  less .vimrc
+  335  rm .vimrc
+  336  vim .vimrc
+  337  cd \mnt\d\softz\vim
+  338  cd \mnt\d\Softz\vim
+  339  cd \mnt\d:\Softz\vim
+  340  cd /mnt/d:/Softz/vim
+  341  cd /mnt/d/softz
+  342  cd vim
+  343  cd ..\..
+  344  cd ../..
+  345  cd Tools
+  346  cd tools
+  347  cd Toolz
+  348  cd ..
+  349  cd Softz
+  350  cd vim
+  351  cd ../..
+  352  ls
+  353  cd toolz
+  354  cd ..
+  355  cd softz
+  356  cd vim
+  357  cp _vimrc ~/.vimrc
+  358  cd ~
+  359  vim ~/.vimrc
+  360  cd /mnt/d:/Softz/vim
+  361  cd /mnt/d/Softz/vim
+  362  cp ~/.vimrc linux_vimrc
+  363  cd ~
+  364  exit
+  365  ping 
+  366  ping 123.123.123.123
+  367  exit
+  368  h
+  369  echo heelo world
+  370  exit
+  371  which
+  372  help
+  373  emacs
+  374  soft
+  375  vim vimrc
+  376  ls
+  377  ls -a
+  378  vim ./.vimrc
+  379  mv .vimrc .old000vimrc
+  380  vim ./.vimrc
+  381  git config --global core.autocrlf input   
+  382  vim ./.vimrc
+  383  curl -fLo ~/.vim/autoload/plug.vim --create-dirs    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  384  vim ./.vimrc
+  385  exit
+  386  history > /mnt/c/users/anea/ubuntuhis.txt

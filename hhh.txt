@@ -1,0 +1,46 @@
+    1  wgy
+    2  ls
+    3  pwd
+    4  echo "cd /home/yokino" >> ~/.bashrc
+    5  source ~/.bashrc
+    6  pwd
+    7  ls
+    8  ls -a
+    9  cp /mnt/d/softz/vim/linux_vimrc ~/.vimrc
+   10  vim .bashrc
+   11  zsh
+   12  vim .bashrc
+   13  echo export PS1="\[\e[32m\]\u@\h\[\e[0m\]:\[\e[34m\]\w\[\e[0m\]\$ " >> .bashrc
+   14  vim .bashrc
+   15  source ~/.bashrc
+   16  vim .bashrc
+   17  source ~/.bashrc
+   18  whoami
+   19  emacs
+   20  cat /etc/os-release
+   21  fastfetch
+   22  yazi
+   23  dnf update -y
+   24  node
+   25  nodejs
+   26  python
+   27  sudo dnf update -y
+   28  dnf install -y epel-release
+   29  sudo dnf install -y epel-release
+   30  dnf install -y net-tools iproute vim wget curl bash-completion procps-ng
+   31  sudo dnf install -y net-tools iproute vim wget curl bash-completion procps-ng
+   32  cal
+   33  date
+   34  cal 3
+   35  man vim
+   36  emacs
+   37  zsh
+   38  ls -a
+   39  cat .vimrc
+   40  vim
+   41  exit
+   42  exit
+   43  ps
+   44  top
+   45  history > /mnt/c
+   46  history > /mnt/c/users/anea/hhh.txt

@@ -1,0 +1,127 @@
+{
+    "workbench.settings.editor": "json",
+    "workbench.startupEditor": "none",
+    "workbench.sideBar.location": "right",
+    "workbench.browser.showInTitleBar": true,
+    "workbench.list.smoothScrolling": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.openPositioning": "left",
+    "python.defaultInterpreterPath": "D:\\Softz\\python14\\python.exe",
+    "editor.fontSize": 22,
+    "editor.fontWeight": 400,
+    "editor.fontFamily": "'Maple Mono NF CN', Consolas, 'Courier New', monospace",
+    //"editor.fontLigatures": true,
+    "editor.fontLigatures": "'calt', 'cv03','cv66','cv97','cv98','ss03','ss05','ss08','ss06', 'ss07', ",
+    "editor.tokenColorCustomizations": {
+        "comments": {
+            "fontStyle": "italic"
+        },
+        "textMateRules": [
+            {
+                "name": "italic font",
+                "scope": [
+                    "comment",
+                    "keyword",
+                    "storage",
+                    "keyword.control.import",
+                    "keyword.control.default",
+                    "keyword.control.from",
+                    "keyword.operator.new",
+                    "keyword.control.export",
+                    "keyword.control.flow",
+                    "storage.type.class",
+                    "storage.type.function",
+                    "storage.type",
+                    "storage.type.class",
+                    "variable.language",
+                    "variable.language.super",
+                    "variable.language.this",
+                    "meta.class",
+                    "meta.var.expr",
+                    "constant.language.null",
+                    "support.type.primitive",
+                    "entity.name.method.js",
+                    "entity.other.attribute-name",
+                    "punctuation.definition.comment",
+                    "text.html.basic entity.other.attribute-name.html",
+                    "text.html.basic entity.other.attribute-name",
+                    "tag.decorator.js entity.name.tag.js",
+                    "tag.decorator.js punctuation.definition.tag.js",
+                    "source.js constant.other.object.key.js string.unquoted.label.js",
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                }
+            },
+        ]
+    },
+    "editor.cursorBlinking": "smooth",
+    "editor.wordWrap": "on",
+    "editor.mouseWheelZoom": true,
+    "editor.lineHeight": 1.5,
+    "editor.formatOnSave": true,
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.guides.bracketPairs": true,
+    "editor.bracketPairColorization.enabled": true,
+    // 控制活动代码段是否阻止快速建议
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    // 除了 `Tab` 键以外， `Enter` 键是否同样可以接受建议
+    // 这能减少“插入新行”和“接受建议”命令之间的歧义
+    "editor.acceptSuggestionOnEnter": "smart",
+    // 代码补全列表中，优先选择最近的建议
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.suggest.insertMode": "replace",
+    "editor.autoClosingBrackets": "beforeWhitespace",
+    "editor.autoClosingDelete": "always",
+    "editor.autoClosingOvertype": "always",
+    "editor.autoClosingQuotes": "beforeWhitespace",
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "editor.stickyScroll.enabled": false,
+    "editor.minimap.enabled": true,
+    "editor.foldingStrategy": "indentation",
+    "window.dialogStyle": "custom",
+    "window.density.editorTabHeight": "compact",
+    "window.commandCenter": false,
+    "terminal.integrated.fontFamily": "'Maple Mono NF CN', Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.scrollback": 10000,
+    "terminal.integrated.cwd": "${workspaceFolder}",
+    "terminal.integrated.cursorStyle": "line",
+    "settingsSync.ignoredSettings": [],
+    "files.exclude": {
+        " **/.git": true,
+        "** /.DS_Store": true,
+        " **/node_modules": true
+    },
+    "search.exclude": {
+        "** /node_modules": true,
+        " **/bower_components": true,
+        "** /*.code-search": true
+    },
+    "files.associations": {
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript"
+    },
+    "explorer.compactFolders": true,
+    "notebook.compactView": true,
+    "search.searchEditor.singleClickBehaviour": "peekDefinition",
+    "update.mode": "none",
+    "files.autoSave": "onFocusChange",
+    "extensions.autoUpdate": "off",
+    "security.workspace.trust.untrustedFiles": "open",
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultColorDecorators": "never",
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off"
+    },
+    "[c]": {}
+}

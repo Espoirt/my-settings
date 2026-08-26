@@ -1,0 +1,8 @@
+[user]
+	name = rui
+	email = boss@gmail.com
+[core]
+	autocrlf = true
+[http]
+	sslBackend = openssl
+	sslverify = false
