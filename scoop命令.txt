@@ -1,0 +1,17 @@
+$env:SCOOP='D:\Scoop'
+[Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
+irm c.xrgzs.top/c/scoop | iex
+scoop list
+scoop install ohmyposh
+scoop install oh-my-posh
+scoop install fastfetch
+scoop install yazi
+scoop install gcc
+scoop install uv python312 vim
+scoop install notion everything
+scoop install vscode
+scoop install ffmpeg
+reg import "$(scoop prefix vscode)\install-context.reg"
+reg import "$(scoop prefix vscode)\install-associations.reg"
+reg import "$(scoop prefix vscode)\install-github-integration.reg"
+scoop install sudo

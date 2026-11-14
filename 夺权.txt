@@ -1,0 +1,1 @@
+takeown /F "c:\Program Files\WindowsApps" /R /D Y

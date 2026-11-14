@@ -1,0 +1,146 @@
+link
+
+mklink /d "c:\program files\imput" "d:\link\imput"
+mkdir "C:\Users\Anea\AppData\Local\imput\Helium"
+mklink /d "C:\Users\Anea\AppData\Local\imput\Helium\User Data" "d:\link\helidata\User Data"
+
+mkdir "C:\Users\Anea\AppData\Local\Yandex\YandexBrowser"
+mklink /d "C:\Users\Anea\AppData\Local\Yandex\YandexBrowser\Application" "D:\link\YandexBrowser\Application"
+mklink /d "C:\Users\Anea\AppData\Local\Yandex\YandexBrowser\User Data" "D:\link\yandata\User Data"
+
+https://hr.nowcoder.com/v1/s/bn5uJMgw#
+https://hr.nowcoder.com/v1/s/bn5uJMgw#
+
+
+C:\Users\Anea\AppData\Local\Microsoft\Windows\Fonts
+
+/* =EPUB 电脑端代码块样式（小字体 + 缩进保留 + 屏蔽阅读器干预= */
+/* ---------- 1. 代码块容器 ---------- */
+#epub-code-block pre,pre {
+	/* 屏蔽阅读器段落样式 */
+	text-indent: 0 !important;
+	text-align: left !important;
+	text-justify: none !important;
+	font-family: "Consolas", "Monaco", "Courier New", monospace !important;
+	/* 小字体 */
+	font-size: 0.5em !important;
+	line-height: 1.35 !important;
+	/* 缩进保留核心：空白与换行不折叠 */
+	white-space: pre-wrap !important;
+	word-wrap: break-word !important;
+	overflow-wrap: break-word !important;
+	/* 防阅读器篡改空格/字距宽度（关键修复） */
+	word-spacing: normal !important;
+	letter-spacing: normal !important;
+	font-kerning: none !important;
+	/* Tab 统一为 4 空格宽度（即便源里有 Tab 也能正确显示） */
+	tab-size: 4 !important;
+	-moz-tab-size: 4 !important;
+	-o-tab-size: 4 !important;
+	/* 间距 */
+	margin: 0.8em 0 !important;
+	padding: 0.8em 1em !important;
+	/* 外观 */
+	background-color: #afafb0!important;
+	color: #333 !important;
+	border: 1px solid #e0e0e0 !important;
+	border-left: 4px solid #4a90d9 !important;
+	border-radius: 4px !important;
+	/* 盒模型 */
+	max-width: 100% !important;
+	box-sizing: border-box !important;
+	overflow-x: visible !important;
+	/* 防纵向截断 */
+	page-break-inside: auto !important;
+	break-inside: auto !important;
+	-webkit-font-smoothing: antialiased !important;
+	counter-reset: line;
+}
+/* ---------- 2. 子元素重置：white-space 必须 inherit ---------- */
+#epub-code-block pre *,#epub-code-block pre code,#epub-code-block pre span,pre *,pre code,pre span {
+	text-indent: 0 !important;
+	text-align: left !important;
+	font-family: inherit !important;
+	font-size: inherit !important;
+	line-height: inherit !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	background: transparent !important;
+	border: none !important;
+	color: inherit !important;
+	/* 关键：继承而非 normal，否则缩进被吃 */
+	white-space: inherit !important;
+	word-wrap: inherit !important;
+	overflow-wrap: inherit !important;
+	word-spacing: inherit !important;
+	letter-spacing: inherit !important;
+	tab-size: inherit !important;
+	-moz-tab-size: inherit !important;
+}
+/* ---------- 3. 行内代码 ---------- */
+code {
+	font-family: "Consolas", "Monaco", "Courier New", monospace !important;
+	font-size: 0.8em !important;
+	line-height: inherit !important;
+	background-color: #f4f4f4 !important;
+	color: #c7254e !important;
+	padding: 0.08em 0.28em !important;
+	border-radius: 3px !important;
+	text-indent: 0 !important;
+	text-align: left !important;
+	white-space: nowrap !important;
+}
+/* ---------- 4. 可选：语言标签 ---------- */
+#epub-code-block pre[data-lang]::before,pre[data-lang]::before {
+	content: attr(data-lang);
+	display: block;
+	font-family: sans-serif !important;
+	font-size: 0.65em !important;
+	color: #888 !important;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	margin-bottom: 0.4em !important;
+	border-bottom: 1px dashed #ddd !important;
+	padding-bottom: 0.25em !important;
+	text-indent: 0 !important;
+	text-align: left !important;
+	white-space: normal !important;
+	/* 标签本身不需要保留空白 */
+}
+/* ---------- 5. 可选：行号（不影响代码缩进） ---------- */
+#epub-code-block pre .line,pre .line {
+	display: block;
+	text-indent: 0 !important;
+	text-align: left !important;
+	white-space: inherit !important;
+}
+#epub-code-block pre .line::before,pre .line::before {
+	counter-increment: line;
+	content: counter(line);
+	display: inline-block;
+	width: 2.2em;
+	margin-right: 0.8em;
+	text-align: right;
+	color: #aaa;
+	user-select: none;
+}
+/* ---------- 6. 可选：深色主题 ---------- */
+@media (prefers-color-scheme: dark) {
+	code {
+		background-color: #2d2d2d !important;
+		color: #f08d49 !important;
+	}
+	#epub-code-block pre,pre {
+		background-color: #1e1e1e !important;
+		border-color: #333 !important;
+		border-left-color: #4a90d9 !important;
+		color: #d4d4d4 !important;
+	}
+	#epub-code-block pre[data-lang]::before,pre[data-lang]::before {
+		color: #777 !important;
+		border-bottom-color: #444 !important;
+	}
+	#epub-code-block pre .line::before,pre .line::before {
+		color: #666;
+	}
+}

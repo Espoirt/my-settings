@@ -1,0 +1,144 @@
+
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "centerOnLaunch": true,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "initialCols": 100,
+    "initialRows": 20,
+    "keybindings": 
+    [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "backgroundImage": "C:\\Users\\Anea\\Pictures\\wallweaper\\hatoro.png",
+            "backgroundImageOpacity": 0.65,
+            "backgroundImageStretchMode": "uniformToFill",
+            "colorScheme": "my bell",
+            "cursorColor": "#3A96DD",
+            "experimental.rainbowSuggestions": false,
+            "font": 
+            {
+                "cellHeight": "1.5",
+                "face": "Maple Mono NF CN",
+                "features": 
+                {
+                    "cv03": 1
+                },
+                "size": 14,
+                "weight": "semi-light"
+            },
+            "icon": "\ue756",
+            "intenseTextStyle": "bright",
+            "opacity": 63,
+            "suppressApplicationTitle": false,
+            "useAcrylic": false
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "\u547d\u4ee4\u63d0\u793a\u7b26"
+            },
+            {
+                "backgroundImageOpacity": 0.56,
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{5337fda0-f482-5885-902f-dfe9b58b7f23}",
+                "hidden": false,
+                "name": "ubuntu-26.04",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
+            },
+            {
+                "guid": "{6bfdfe97-ee7d-58a3-9394-bee5cbab9ec6}",
+                "hidden": false,
+                "name": "lion",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{1da6601d-062c-59f1-87d9-fed5f275907d}",
+                "hidden": false,
+                "name": "ban",
+                "source": "Microsoft.WSL"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#0C0C0C",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#CCCCCC",
+            "green": "#22EB22",
+            "name": "my bell",
+            "purple": "#881798",
+            "red": "#F7768E",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        }
+    ],
+    "showTabsInTitlebar": true,
+    "theme": "legacyDark",
+    "themes": [],
+    "useAcrylicInTabRow": true,
+    "warning.confirmCloseAllTabs": false
+}
